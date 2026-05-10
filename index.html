@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的文件下载站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", Arial;
+            background: #f5f7fa;
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        .file-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 18px;
+            background: #f9fafb;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        .file-name {
+            color: #444;
+            font-size: 15px;
+        }
+        .download-btn {
+            background: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .download-btn:hover {
+            background: #0069d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📂 我的文件下载站</h1>
+
+        <!-- 文件 1 -->
+        <div class="file-box">
+            <span class="file-name">屏幕截图 2026-05-05 143909.png</span>
+            <a class="download-btn" href="https://naibo666.github.io/jpzx/屏幕截图 2026-05-05 143909.png" target="_blank">打开/下载</a>
+        </div>
+
+        <!-- 文件 2 -->
+        <div class="file-box">
+            <span class="file-name">屏幕截图 2026-05-05 143956.png</span>
+            <a class="download-btn" href="https://naibo666.github.io/jpzx/屏幕截图 2026-05-05 143956.png" target="_blank">打开/下载</a>
+        </div>
+
+    </div>
+</body>
+</html>
